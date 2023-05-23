@@ -15,7 +15,7 @@ pygame.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 clock = pygame.time.Clock()
 
-pygame.display.set_caption('Rose - Screenshare client - made by xpierroz')
+pygame.display.set_caption('Sakeen - Attacker client by xpierroz')
 
 
 @_sio.event
