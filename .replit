@@ -1,2 +1,1 @@
-compile = "pip3 install python-socketio"
 run = "python3 server/server.py"
