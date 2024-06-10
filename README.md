@@ -1,7 +1,7 @@
 <a id="top"></a>
 <h1 align="center">
   <br>
-  <a href="https://github.com/xpierroz/Saaken"><img src="static/home.png" alt="R"></a>
+  <a href="https://github.com/xpierroz/Saaken"><img src="static/home.PNG" alt="R"></a>
   <br>
   <br>
  Saaken
