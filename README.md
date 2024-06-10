@@ -30,6 +30,4 @@ Once you built the payload for the victim and the client for the attacker. Execu
 
 ### Warning
 
-This tool is explicitly made for cyber-security & research purposes.
-It intends to show the power of a simple programming language, Python.
-Do not use for malicious purposes & the creator is not responsible for your actions.
+This tool is explicitly designed and provided exclusively for educational intentions. Its primary objective is to illuminate the vulnerabilities that files can be susceptible to, highlighting the need for proactive security measures. It is imperative that this tool is never leveraged for any illegal, unauthorized, or malicious undertakings. Under no circumstances will I assume liability for any detrimental consequences inflicted upon your computing infrastructure. I hereby absolve myself from any complicity in activities of an illicit nature. Emphatically, this tool's utility is confined to didactic objectives.
