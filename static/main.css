@@ -30,7 +30,7 @@ body {
 }
 
 .card-title {
-    margin-top: 10vh;
+    margin-top: 4vh;
     font-size: 3rem;
 }
   
@@ -38,7 +38,7 @@ body {
     margin-top: -8vh;
     font-size: 2rem;
     text-align: center;
-    margin-bottom: 10vh;
+    margin-bottom: 4vh;
 }
 
 .builder {
@@ -58,7 +58,6 @@ body {
 .builder:hover {
     box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
     transition: 0.5s ease;
-    cursor: pointer;
 }
 
 .builder-title {
@@ -99,6 +98,10 @@ body {
     outline: none;
 }
 
+#serverlink::placeholder {
+    color: #999;
+}
+
 .builder-form input {
     border-radius: 10px;
     border: none;
@@ -120,7 +123,7 @@ body {
 }
 
 .logo-footer {
-    margin-top: 5vh;
+    margin-top: 12vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -128,7 +131,7 @@ body {
 }
 
 .logo-footer img {
-    height: 13vh; /* Adjust the height as per your preference */
+    height: 9vh; /* Adjust the height as per your preference */
     margin: 0 7vw; /* Adjust the margin spacing between logos */
     transition: 0.5s ease; /* Add transition property */
 }

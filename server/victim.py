@@ -59,3 +59,5 @@ def receiveing_mouse_click(data):
     pyautogui.click(x=data['data']['x'], y=data['data']['y'])
                 
 _sio.connect(link)
+while True:
+    time.sleep(1)
