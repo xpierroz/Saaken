@@ -3,9 +3,6 @@
   <br>
   <a href="https://github.com/xpierroz/Saaken"><img src="static/home.PNG" alt="R"></a>
   <br>
-  <br>
- Saaken
-  <br>
 </h1>
 
 <div align="center">
