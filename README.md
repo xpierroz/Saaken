@@ -8,8 +8,8 @@
 <div align="center">
     <br>
     <b>
-    <h1>
+    <h3>
         POC | Control someone's screen only with Python 
-    </h1>
+    </h3>
     </b>
 </div>
